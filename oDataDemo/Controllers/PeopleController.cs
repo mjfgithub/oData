@@ -27,7 +27,7 @@ namespace oDataDemo.Controllers
         public IHttpActionResult Delete([FromODataUri] string key)
         {
 
-            
+            //this is a test
 
             Person person = DemoDataSources.Instance.People.FirstOrDefault(p => p.ID == key);
             if (person == null)
